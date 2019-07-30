@@ -22,3 +22,6 @@ This method converts the long timestamp of Java Date to LocalDateTime.
 
 ### public static Date getTimeToDate(long time)
 This method converts the long timestamp of Java Date to LocalDateTime and back to Date
+
+## Known Bugs
+For LocalDateTime, the converted date and time lags a little behind LocalDateTime.now() in seconds and milliseconds parameters.
